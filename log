@@ -14,3 +14,9 @@ list.c:40:13: error: 'List {aka struct List}' has no member named 'first'
              ^~
 Compilation failed
 69e567f
+Thu, Mar 27, 2025  5:34:56 PM: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  1|5
+total_score: 10/70
+f7f6aea
