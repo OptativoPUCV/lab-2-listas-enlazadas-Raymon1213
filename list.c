@@ -32,11 +32,11 @@ List * createList() {
     List * newlist = (List *)malloc(sizeof(List));
     newlist->head = NULL;
     newlist->tail = NULL;
-    newlist->current = newlist->head;
      return newlist;
 }
 
 void * firstList(List * list) {
+    list->current=list->head;
     return list->current->data;
 }
 
