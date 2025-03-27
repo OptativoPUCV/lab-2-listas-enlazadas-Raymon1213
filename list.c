@@ -32,6 +32,7 @@ List * createList() {
     List * newlist = (List *)malloc(sizeof(List));
     newlist->head = NULL;
     newlist->tail = NULL;
+    newlist->current = NULL;
      return newlist;
 }
 
