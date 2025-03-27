@@ -4,3 +4,13 @@ Thu, Mar 27, 2025  5:23:13 PM:
  tests:  1|5
 total_score: 10/70
 25021aa
+Thu, Mar 27, 2025  5:34:27 PM: 
+ list.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+list.c: In function 'firstList':
+list.c:40:13: error: 'List {aka struct List}' has no member named 'first'
+     if (list->first == NULL) return NULL;
+             ^~
+Compilation failed
+69e567f
