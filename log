@@ -255,3 +255,14 @@ Sat, Mar 29, 2025 12:32:07 PM:
  tests:  11|1
 total_score: 55/70
 b22767a
+Sat, Mar 29, 2025 12:34:15 PM: 
+ list.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:
+list.c: In function 'popCurrent':
+list.c:121:9: error: 'head' undeclared (first use in this function)
+  121 |         head->prev = NULL;
+      |         ^~~~
+list.c:121:9: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+9f0aa66
