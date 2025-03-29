@@ -266,3 +266,9 @@ list.c:121:9: error: 'head' undeclared (first use in this function)
 list.c:121:9: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 9f0aa66
+Sat, Mar 29, 2025 12:34:27 PM: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  12|0
+total_score: 70/70
+c50607d
